@@ -1,0 +1,348 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 5
+        -max_paths 5
+        -sort_by group
+Design : program_counter
+Version: O-2018.06-SP1
+Date   : Sat Jan 24 11:35:29 2026
+****************************************
+
+Operating Conditions: slow   Library: IBM_CMOS8HP_SS125
+Wire Load Model Mode: enclosed
+
+  Startpoint: branch_offset[4]
+              (input port clocked by v_clk)
+  Endpoint: branch_offset_q_reg[4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  program_counter    500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock v_clk (rise edge)                 0.000      0.000
+  clock network delay (ideal)             0.000      0.000
+  input external delay                    3.000      3.000 f
+  branch_offset[4] (in)                   0.000      3.000 f
+  branch_offset_q_reg[4]/D (DFFR_K)       0.000      3.000 f
+  data arrival time                                  3.000
+
+  clock clk (rise edge)                  10.000     10.000
+  clock network delay (ideal)             0.500     10.500
+  clock uncertainty                      -1.200      9.300
+  branch_offset_q_reg[4]/CLK (DFFR_K)     0.000      9.300 r
+  library setup time                     -0.282      9.018
+  data required time                                 9.018
+  -----------------------------------------------------------
+  data required time                                 9.018
+  data arrival time                                 -3.000
+  -----------------------------------------------------------
+  slack (MET)                                        6.018
+
+
+  Startpoint: branch_offset[3]
+              (input port clocked by v_clk)
+  Endpoint: branch_offset_q_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  program_counter    500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock v_clk (rise edge)                 0.000      0.000
+  clock network delay (ideal)             0.000      0.000
+  input external delay                    3.000      3.000 f
+  branch_offset[3] (in)                   0.000      3.000 f
+  branch_offset_q_reg[3]/D (DFFR_K)       0.000      3.000 f
+  data arrival time                                  3.000
+
+  clock clk (rise edge)                  10.000     10.000
+  clock network delay (ideal)             0.500     10.500
+  clock uncertainty                      -1.200      9.300
+  branch_offset_q_reg[3]/CLK (DFFR_K)     0.000      9.300 r
+  library setup time                     -0.282      9.018
+  data required time                                 9.018
+  -----------------------------------------------------------
+  data required time                                 9.018
+  data arrival time                                 -3.000
+  -----------------------------------------------------------
+  slack (MET)                                        6.018
+
+
+  Startpoint: branch_offset[2]
+              (input port clocked by v_clk)
+  Endpoint: branch_offset_q_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  program_counter    500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock v_clk (rise edge)                 0.000      0.000
+  clock network delay (ideal)             0.000      0.000
+  input external delay                    3.000      3.000 f
+  branch_offset[2] (in)                   0.000      3.000 f
+  branch_offset_q_reg[2]/D (DFFR_K)       0.000      3.000 f
+  data arrival time                                  3.000
+
+  clock clk (rise edge)                  10.000     10.000
+  clock network delay (ideal)             0.500     10.500
+  clock uncertainty                      -1.200      9.300
+  branch_offset_q_reg[2]/CLK (DFFR_K)     0.000      9.300 r
+  library setup time                     -0.282      9.018
+  data required time                                 9.018
+  -----------------------------------------------------------
+  data required time                                 9.018
+  data arrival time                                 -3.000
+  -----------------------------------------------------------
+  slack (MET)                                        6.018
+
+
+  Startpoint: branch_offset[1]
+              (input port clocked by v_clk)
+  Endpoint: branch_offset_q_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  program_counter    500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock v_clk (rise edge)                 0.000      0.000
+  clock network delay (ideal)             0.000      0.000
+  input external delay                    3.000      3.000 f
+  branch_offset[1] (in)                   0.000      3.000 f
+  branch_offset_q_reg[1]/D (DFFR_K)       0.000      3.000 f
+  data arrival time                                  3.000
+
+  clock clk (rise edge)                  10.000     10.000
+  clock network delay (ideal)             0.500     10.500
+  clock uncertainty                      -1.200      9.300
+  branch_offset_q_reg[1]/CLK (DFFR_K)     0.000      9.300 r
+  library setup time                     -0.282      9.018
+  data required time                                 9.018
+  -----------------------------------------------------------
+  data required time                                 9.018
+  data arrival time                                 -3.000
+  -----------------------------------------------------------
+  slack (MET)                                        6.018
+
+
+  Startpoint: branch_offset[0]
+              (input port clocked by v_clk)
+  Endpoint: branch_offset_q_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  program_counter    500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock v_clk (rise edge)                 0.000      0.000
+  clock network delay (ideal)             0.000      0.000
+  input external delay                    3.000      3.000 f
+  branch_offset[0] (in)                   0.000      3.000 f
+  branch_offset_q_reg[0]/D (DFFR_K)       0.000      3.000 f
+  data arrival time                                  3.000
+
+  clock clk (rise edge)                  10.000     10.000
+  clock network delay (ideal)             0.500     10.500
+  clock uncertainty                      -1.200      9.300
+  branch_offset_q_reg[0]/CLK (DFFR_K)     0.000      9.300 r
+  library setup time                     -0.282      9.018
+  data required time                                 9.018
+  -----------------------------------------------------------
+  data required time                                 9.018
+  data arrival time                                 -3.000
+  -----------------------------------------------------------
+  slack (MET)                                        6.018
+
+
+  Startpoint: mem_addr_reg[6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mem_addr[6]
+            (output port clocked by v_clk)
+  Path Group: v_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  program_counter    500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   0.000      0.000
+  clock network delay (ideal)             0.500      0.500
+  mem_addr_reg[6]/CLK (DFFR_K)            0.000      0.500 r
+  mem_addr_reg[6]/Q (DFFR_K)              0.272      0.772 r
+  U27/Z (INVERTBAL_J)                     0.077      0.849 f
+  U113/Z (INVERT_H)                       0.060      0.909 r
+  mem_addr[6] (out)                       0.000      0.909 r
+  data arrival time                                  0.909
+
+  clock v_clk (rise edge)                10.000     10.000
+  clock network delay (ideal)             0.000     10.000
+  output external delay                  -3.000      7.000
+  data required time                                 7.000
+  -----------------------------------------------------------
+  data required time                                 7.000
+  data arrival time                                 -0.909
+  -----------------------------------------------------------
+  slack (MET)                                        6.091
+
+
+  Startpoint: mem_addr_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mem_addr[3]
+            (output port clocked by v_clk)
+  Path Group: v_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  program_counter    500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   0.000      0.000
+  clock network delay (ideal)             0.500      0.500
+  mem_addr_reg[3]/CLK (DFFR_K)            0.000      0.500 r
+  mem_addr_reg[3]/Q (DFFR_K)              0.268      0.768 r
+  U122/Z (INVERT_H)                       0.044      0.812 f
+  U35/Z (INVERT_K)                        0.052      0.864 r
+  mem_addr[3] (out)                       0.000      0.864 r
+  data arrival time                                  0.864
+
+  clock v_clk (rise edge)                10.000     10.000
+  clock network delay (ideal)             0.000     10.000
+  output external delay                  -3.000      7.000
+  data required time                                 7.000
+  -----------------------------------------------------------
+  data required time                                 7.000
+  data arrival time                                 -0.864
+  -----------------------------------------------------------
+  slack (MET)                                        6.136
+
+
+  Startpoint: mem_addr_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mem_addr[2]
+            (output port clocked by v_clk)
+  Path Group: v_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  program_counter    500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   0.000      0.000
+  clock network delay (ideal)             0.500      0.500
+  mem_addr_reg[2]/CLK (DFFR_K)            0.000      0.500 r
+  mem_addr_reg[2]/Q (DFFR_K)              0.271      0.771 r
+  U38/Z (INVERT_I)                        0.042      0.813 f
+  U37/Z (INVERT_K)                        0.050      0.863 r
+  mem_addr[2] (out)                       0.000      0.864 r
+  data arrival time                                  0.864
+
+  clock v_clk (rise edge)                10.000     10.000
+  clock network delay (ideal)             0.000     10.000
+  output external delay                  -3.000      7.000
+  data required time                                 7.000
+  -----------------------------------------------------------
+  data required time                                 7.000
+  data arrival time                                 -0.864
+  -----------------------------------------------------------
+  slack (MET)                                        6.136
+
+
+  Startpoint: mem_addr_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mem_addr[0]
+            (output port clocked by v_clk)
+  Path Group: v_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  program_counter    500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   0.000      0.000
+  clock network delay (ideal)             0.500      0.500
+  mem_addr_reg[0]/CLK (DFFR_K)            0.000      0.500 r
+  mem_addr_reg[0]/Q (DFFR_K)              0.268      0.768 r
+  U55/Z (INVERT_H)                        0.044      0.812 f
+  U56/Z (INVERT_H)                        0.048      0.860 r
+  mem_addr[0] (out)                       0.000      0.860 r
+  data arrival time                                  0.860
+
+  clock v_clk (rise edge)                10.000     10.000
+  clock network delay (ideal)             0.000     10.000
+  output external delay                  -3.000      7.000
+  data required time                                 7.000
+  -----------------------------------------------------------
+  data required time                                 7.000
+  data arrival time                                 -0.860
+  -----------------------------------------------------------
+  slack (MET)                                        6.140
+
+
+  Startpoint: mem_addr_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mem_addr[4]
+            (output port clocked by v_clk)
+  Path Group: v_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  program_counter    500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   0.000      0.000
+  clock network delay (ideal)             0.500      0.500
+  mem_addr_reg[4]/CLK (DFFR_K)            0.000      0.500 r
+  mem_addr_reg[4]/Q (DFFR_K)              0.268      0.768 r
+  U116/Z (INVERT_H)                       0.044      0.812 f
+  U117/Z (INVERT_K)                       0.048      0.860 r
+  mem_addr[4] (out)                       0.000      0.860 r
+  data arrival time                                  0.860
+
+  clock v_clk (rise edge)                10.000     10.000
+  clock network delay (ideal)             0.000     10.000
+  output external delay                  -3.000      7.000
+  data required time                                 7.000
+  -----------------------------------------------------------
+  data required time                                 7.000
+  data arrival time                                 -0.860
+  -----------------------------------------------------------
+  slack (MET)                                        6.140
+
+
+1

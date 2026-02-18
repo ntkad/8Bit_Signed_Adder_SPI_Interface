@@ -1,0 +1,331 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 5
+        -max_paths 5
+        -sort_by group
+Design : signed_adder8
+Version: O-2018.06-SP1
+Date   : Fri Jan 30 16:37:02 2026
+****************************************
+
+Operating Conditions: slow   Library: IBM_CMOS8HP_SS125
+Wire Load Model Mode: enclosed
+
+  Startpoint: CSN (input port clocked by v_clk)
+  Endpoint: MISO_reg (rising edge-triggered flip-flop clocked by clk')
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  signed_adder8      500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock v_clk (rise edge)                 0.000      0.000
+  clock network delay (ideal)             0.000      0.000
+  input external delay                    3.000      3.000 r
+  CSN (in)                                0.000      3.000 r
+  U217/Z (INVERT_N)                       0.066      3.066 f
+  U199/Z (AND4_F)                         0.121      3.187 f
+  MISO_reg/D (DFFR_E)                     0.000      3.187 f
+  data arrival time                                  3.187
+
+  clock clk' (rise edge)                  5.000      5.000
+  clock network delay (ideal)             0.500      5.500
+  clock uncertainty                      -1.200      4.300
+  MISO_reg/CLK (DFFR_E)                   0.000      4.300 r
+  library setup time                     -0.236      4.064
+  data required time                                 4.064
+  -----------------------------------------------------------
+  data required time                                 4.064
+  data arrival time                                 -3.187
+  -----------------------------------------------------------
+  slack (MET)                                        0.877
+
+
+  Startpoint: CSN (input port clocked by v_clk)
+  Endpoint: MISO_reg (rising edge-triggered flip-flop clocked by clk')
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  signed_adder8      500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock v_clk (rise edge)                 0.000      0.000
+  clock network delay (ideal)             0.000      0.000
+  input external delay                    3.000      3.000 f
+  CSN (in)                                0.000      3.000 f
+  U217/Z (INVERT_N)                       0.092      3.092 r
+  U199/Z (AND4_F)                         0.137      3.229 r
+  MISO_reg/D (DFFR_E)                     0.000      3.229 r
+  data arrival time                                  3.229
+
+  clock clk' (rise edge)                  5.000      5.000
+  clock network delay (ideal)             0.500      5.500
+  clock uncertainty                      -1.200      4.300
+  MISO_reg/CLK (DFFR_E)                   0.000      4.300 r
+  library setup time                     -0.121      4.179
+  data required time                                 4.179
+  -----------------------------------------------------------
+  data required time                                 4.179
+  data arrival time                                 -3.229
+  -----------------------------------------------------------
+  slack (MET)                                        0.950
+
+
+  Startpoint: bit_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: MISO_reg (rising edge-triggered flip-flop clocked by clk')
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  signed_adder8      500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   0.000      0.000
+  clock network delay (ideal)             0.500      0.500
+  bit_cnt_reg[0]/CLK (DFFS_E)             0.000      0.500 r
+  bit_cnt_reg[0]/Q (DFFS_E)               0.320      0.820 r
+  U338/Z (INVERT_H)                       0.053      0.873 f
+  U330/Z (INVERT_K)                       0.052      0.924 r
+  U329/Z (INVERT_I)                       0.050      0.974 f
+  U132/Z (AO22_F)                         0.112      1.086 f
+  U133/Z (INVERT_D)                       0.058      1.145 r
+  U263/Z (NOR2_C)                         0.074      1.219 f
+  U264/Z (NOR2_C)                         0.095      1.314 r
+  U261/Z (INVERT_E)                       0.056      1.370 f
+  U276/Z (AO22_F)                         0.114      1.484 f
+  U199/Z (AND4_F)                         0.104      1.587 f
+  MISO_reg/D (DFFR_E)                     0.000      1.587 f
+  data arrival time                                  1.587
+
+  clock clk' (rise edge)                  5.000      5.000
+  clock network delay (ideal)             0.500      5.500
+  clock uncertainty                      -1.200      4.300
+  MISO_reg/CLK (DFFR_E)                   0.000      4.300 r
+  library setup time                     -0.236      4.064
+  data required time                                 4.064
+  -----------------------------------------------------------
+  data required time                                 4.064
+  data arrival time                                 -1.587
+  -----------------------------------------------------------
+  slack (MET)                                        2.477
+
+
+  Startpoint: bit_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: MISO_reg (rising edge-triggered flip-flop clocked by clk')
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  signed_adder8      500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   0.000      0.000
+  clock network delay (ideal)             0.500      0.500
+  bit_cnt_reg[0]/CLK (DFFS_E)             0.000      0.500 r
+  bit_cnt_reg[0]/Q (DFFS_E)               0.320      0.820 r
+  U338/Z (INVERT_H)                       0.053      0.873 f
+  U330/Z (INVERT_K)                       0.052      0.924 r
+  U329/Z (INVERT_I)                       0.050      0.974 f
+  U265/Z (AOI22_C)                        0.082      1.057 r
+  U262/Z (NOR2_C)                         0.093      1.150 f
+  U264/Z (NOR2_C)                         0.090      1.240 r
+  U261/Z (INVERT_E)                       0.056      1.295 f
+  U276/Z (AO22_F)                         0.114      1.409 f
+  U199/Z (AND4_F)                         0.104      1.512 f
+  MISO_reg/D (DFFR_E)                     0.000      1.513 f
+  data arrival time                                  1.513
+
+  clock clk' (rise edge)                  5.000      5.000
+  clock network delay (ideal)             0.500      5.500
+  clock uncertainty                      -1.200      4.300
+  MISO_reg/CLK (DFFR_E)                   0.000      4.300 r
+  library setup time                     -0.236      4.064
+  data required time                                 4.064
+  -----------------------------------------------------------
+  data required time                                 4.064
+  data arrival time                                 -1.513
+  -----------------------------------------------------------
+  slack (MET)                                        2.552
+
+
+  Startpoint: bit_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: MISO_reg (rising edge-triggered flip-flop clocked by clk')
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  signed_adder8      500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   0.000      0.000
+  clock network delay (ideal)             0.500      0.500
+  bit_cnt_reg[0]/CLK (DFFS_E)             0.000      0.500 r
+  bit_cnt_reg[0]/Q (DFFS_E)               0.320      0.820 r
+  U338/Z (INVERT_H)                       0.053      0.873 f
+  U330/Z (INVERT_K)                       0.052      0.924 r
+  U329/Z (INVERT_I)                       0.050      0.974 f
+  U195/Z (AO22_F)                         0.112      1.086 f
+  U196/Z (INVERT_D)                       0.056      1.143 r
+  U267/Z (OAI22_B)                        0.089      1.231 f
+  U276/Z (AO22_F)                         0.130      1.362 f
+  U199/Z (AND4_F)                         0.104      1.465 f
+  MISO_reg/D (DFFR_E)                     0.000      1.465 f
+  data arrival time                                  1.465
+
+  clock clk' (rise edge)                  5.000      5.000
+  clock network delay (ideal)             0.500      5.500
+  clock uncertainty                      -1.200      4.300
+  MISO_reg/CLK (DFFR_E)                   0.000      4.300 r
+  library setup time                     -0.236      4.064
+  data required time                                 4.064
+  -----------------------------------------------------------
+  data required time                                 4.064
+  data arrival time                                 -1.465
+  -----------------------------------------------------------
+  slack (MET)                                        2.599
+
+
+  Startpoint: MISO_reg (rising edge-triggered flip-flop clocked by clk')
+  Endpoint: MISO (output port clocked by v_clk)
+  Path Group: v_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  signed_adder8      500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk' (rise edge)                  5.000      5.000
+  clock network delay (ideal)             0.500      5.500
+  MISO_reg/CLK (DFFR_E)                   0.000      5.500 r
+  MISO_reg/Q (DFFR_E)                     0.322      5.822 r
+  MISO (out)                              0.000      5.822 r
+  data arrival time                                  5.822
+
+  clock v_clk (rise edge)                10.000     10.000
+  clock network delay (ideal)             0.000     10.000
+  output external delay                  -3.000      7.000
+  data required time                                 7.000
+  -----------------------------------------------------------
+  data required time                                 7.000
+  data arrival time                                 -5.822
+  -----------------------------------------------------------
+  slack (MET)                                        1.178
+
+
+  Startpoint: MISO_reg (rising edge-triggered flip-flop clocked by clk')
+  Endpoint: MISO (output port clocked by v_clk)
+  Path Group: v_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  signed_adder8      500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk' (rise edge)                  5.000      5.000
+  clock network delay (ideal)             0.500      5.500
+  MISO_reg/CLK (DFFR_E)                   0.000      5.500 r
+  MISO_reg/Q (DFFR_E)                     0.214      5.714 f
+  MISO (out)                              0.000      5.714 f
+  data arrival time                                  5.714
+
+  clock v_clk (rise edge)                10.000     10.000
+  clock network delay (ideal)             0.000     10.000
+  output external delay                  -3.000      7.000
+  data required time                                 7.000
+  -----------------------------------------------------------
+  data required time                                 7.000
+  data arrival time                                 -5.714
+  -----------------------------------------------------------
+  slack (MET)                                        1.286
+
+
+  Startpoint: MISO_enable_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: MISO_enable
+            (output port clocked by v_clk)
+  Path Group: v_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  signed_adder8      500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   0.000      0.000
+  clock network delay (ideal)             0.500      0.500
+  MISO_enable_reg/CLK (DFFR_K)            0.000      0.500 r
+  MISO_enable_reg/Q (DFFR_K)              0.268      0.768 r
+  U219/Z (INVERT_H)                       0.032      0.800 f
+  U220/Z (INVERT_H)                       0.044      0.844 r
+  MISO_enable (out)                       0.000      0.844 r
+  data arrival time                                  0.844
+
+  clock v_clk (rise edge)                10.000     10.000
+  clock network delay (ideal)             0.000     10.000
+  output external delay                  -3.000      7.000
+  data required time                                 7.000
+  -----------------------------------------------------------
+  data required time                                 7.000
+  data arrival time                                 -0.844
+  -----------------------------------------------------------
+  slack (MET)                                        6.156
+
+
+  Startpoint: MISO_enable_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: MISO_enable
+            (output port clocked by v_clk)
+  Path Group: v_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  signed_adder8      500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   0.000      0.000
+  clock network delay (ideal)             0.500      0.500
+  MISO_enable_reg/CLK (DFFR_K)            0.000      0.500 r
+  MISO_enable_reg/Q (DFFR_K)              0.175      0.675 f
+  U219/Z (INVERT_H)                       0.038      0.713 r
+  U220/Z (INVERT_H)                       0.039      0.752 f
+  MISO_enable (out)                       0.000      0.752 f
+  data arrival time                                  0.752
+
+  clock v_clk (rise edge)                10.000     10.000
+  clock network delay (ideal)             0.000     10.000
+  output external delay                  -3.000      7.000
+  data required time                                 7.000
+  -----------------------------------------------------------
+  data required time                                 7.000
+  data arrival time                                 -0.752
+  -----------------------------------------------------------
+  slack (MET)                                        6.248
+
+
+1
