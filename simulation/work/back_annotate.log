@@ -1,0 +1,37 @@
+======================================================================
+
+Annotating SDF timing data:
+  Compiled SDF file:     program_counter.sdf.X
+  Log file:              back_annotate.log
+  Backannotation scope:  program_counter_syn_tb.DUT
+  Configuration file:    
+  MTM control:           
+  Scale factors:         
+  Scale type:            
+
+Time units: 1ns
+
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.update_lsbs_q_reg of module DFFR_H </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1349>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\mem_addr_reg[0]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1367>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\mem_addr_reg[2]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1385>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\branch_offset_q_reg[0]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1403>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\mem_addr_reg[6]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1540>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\mem_addr_reg[5]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1558>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\mem_addr_reg[4]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1576>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\mem_addr_reg[3]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1594>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\mem_addr_reg[7]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1612>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\mem_addr_reg[1]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1630>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\jump_destination_q_reg[0]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1648>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\jump_destination_q_reg[1]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1666>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\jump_destination_q_reg[2]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1684>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\jump_destination_q_reg[3]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1702>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\jump_destination_q_reg[4]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1720>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\jump_destination_q_reg[5]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1738>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.jump_q_reg of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1756>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.update_msbs_q_reg of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1774>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\branch_offset_q_reg[1]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1792>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\branch_offset_q_reg[2]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1810>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\branch_offset_q_reg[3]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1828>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\branch_offset_q_reg[4]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1846>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.\branch_offset_q_reg[5]  of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1864>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance program_counter_syn_tb.DUT.branch_q_reg of module DFFR_K </home/ead/G23328676/ece6214/project2/synthesis/netlists/program_counter.sdf, line 1882>.

@@ -1,0 +1,9 @@
+//
+// File created by:  xmverilog
+// Do not modify this file
+//
+../testbench/signed_adder8_tb.v
++gui
++access+r
+-timescale
+1ns/1ps

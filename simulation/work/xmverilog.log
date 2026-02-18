@@ -1,0 +1,352 @@
+xmverilog(64): 17.10-s001: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	xmverilog	17.10-s001: Started on Jan 30, 2026 at 16:49:13 EST
+xmverilog
+	../testbench/signed_adder8_tb.v
+	+gui
+	+access+r
+	-timescale
+	1ns/1ps
+Recompiling... reason: checksum check failure for module worklib.signed_adder8:v (VST).
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+  DFFS_E \bit_cnt_reg[3]  ( .D(n191), .CLK(SCLK), .S(n330), .QBAR(n58) );
+                        |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,145|24): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFS_E.v,3): Q
+
+  DFFR_K \shift_in_reg_reg[0]  ( .D(n102), .CLK(SCLK), .RN(n327), .QBAR(n151)
+                             |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,156|29): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \shift_in_reg_reg[2]  ( .D(n100), .CLK(SCLK), .RN(n327), .QBAR(n149)
+                             |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,160|29): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \shift_in_reg_reg[5]  ( .D(n97), .CLK(SCLK), .RN(n327), .QBAR(n150)
+                             |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,166|29): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \shift_in_reg_reg[6]  ( .D(n96), .CLK(SCLK), .RN(n327), .QBAR(n115)
+                             |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,168|29): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_input_b_reg[0]  ( .D(n95), .CLK(SCLK), .RN(n327), .QBAR(n144) );
+                            |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,170|28): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_input_b_reg[1]  ( .D(n94), .CLK(SCLK), .RN(n326), .QBAR(n125) );
+                            |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,171|28): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_input_b_reg[3]  ( .D(n92), .CLK(SCLK), .RN(n326), .QBAR(n123) );
+                            |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,174|28): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_input_b_reg[4]  ( .D(n91), .CLK(SCLK), .RN(n326), .QBAR(n147) );
+                            |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,175|28): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_input_b_reg[5]  ( .D(n90), .CLK(SCLK), .RN(n326), .QBAR(n136) );
+                            |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,176|28): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_input_b_reg[6]  ( .D(n89), .CLK(SCLK), .RN(n326), .QBAR(n122) );
+                            |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,177|28): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_input_b_reg[7]  ( .D(n88), .CLK(SCLK), .RN(n326), .QBAR(n148) );
+                            |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,178|28): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_input_a_reg[7]  ( .D(n86), .CLK(SCLK), .RN(n326), .QBAR(n124) );
+                            |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,181|28): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_input_a_reg[6]  ( .D(n85), .CLK(SCLK), .RN(n326), .QBAR(n117) );
+                            |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,182|28): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_input_a_reg[5]  ( .D(n84), .CLK(SCLK), .RN(n325), .QBAR(n137) );
+                            |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,183|28): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_input_a_reg[3]  ( .D(n82), .CLK(SCLK), .RN(n325), .QBAR(n116) );
+                            |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,186|28): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_input_a_reg[2]  ( .D(n81), .CLK(SCLK), .RN(n325), .QBAR(n146) );
+                            |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,187|28): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_input_a_reg[1]  ( .D(n80), .CLK(SCLK), .RN(n325), .QBAR(n118) );
+                            |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,188|28): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_input_a_reg[0]  ( .D(n79), .CLK(SCLK), .RN(n325), .QBAR(n135) );
+                            |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,189|28): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_result_reg[0]  ( .D(n119), .CLK(SCLK), .RN(n325), .QBAR(n132) );
+                           |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,192|27): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_result_reg[2]  ( .D(n129), .CLK(SCLK), .RN(n325), .QBAR(n113) );
+                           |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,195|27): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_result_reg[3]  ( .D(n71), .CLK(SCLK), .RN(n324), .QBAR(n142) );
+                           |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,198|27): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_result_reg[5]  ( .D(n67), .CLK(SCLK), .RN(n324), .QBAR(n134) );
+                           |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,203|27): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_result_reg[6]  ( .D(n65), .CLK(SCLK), .RN(n324), .QBAR(n143) );
+                           |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,206|27): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \reg_result_reg[7]  ( .D(n63), .CLK(SCLK), .RN(n325), .QBAR(n114) );
+                           |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,209|27): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \a_reg_reg[6]  ( .D(input_a[6]), .CLK(clk), .RN(n12), .Q(a_reg[6]) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,53|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \a_reg_reg[5]  ( .D(input_a[5]), .CLK(clk), .RN(n12), .Q(a_reg[5]) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,54|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \a_reg_reg[4]  ( .D(input_a[4]), .CLK(clk), .RN(n12), .Q(a_reg[4]) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,55|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \a_reg_reg[3]  ( .D(input_a[3]), .CLK(clk), .RN(n12), .Q(a_reg[3]) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,56|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \a_reg_reg[2]  ( .D(input_a[2]), .CLK(clk), .RN(n12), .Q(a_reg[2]) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,57|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \a_reg_reg[1]  ( .D(input_a[1]), .CLK(clk), .RN(n12), .Q(a_reg[1]) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,58|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \a_reg_reg[0]  ( .D(input_a[0]), .CLK(clk), .RN(n12), .QBAR(n5) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,59|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \b_reg_reg[6]  ( .D(input_b[6]), .CLK(clk), .RN(n13), .Q(b_reg[6]) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,60|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \b_reg_reg[5]  ( .D(input_b[5]), .CLK(clk), .RN(n13), .Q(b_reg[5]) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,61|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \b_reg_reg[4]  ( .D(input_b[4]), .CLK(clk), .RN(n13), .Q(b_reg[4]) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,62|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \b_reg_reg[3]  ( .D(input_b[3]), .CLK(clk), .RN(n13), .Q(b_reg[3]) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,63|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \b_reg_reg[2]  ( .D(input_b[2]), .CLK(clk), .RN(n13), .Q(b_reg[2]) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,64|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \b_reg_reg[1]  ( .D(input_b[1]), .CLK(clk), .RN(n13), .Q(b_reg[1]) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,65|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \b_reg_reg[0]  ( .D(input_b[0]), .CLK(clk), .RN(n13), .QBAR(n4) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,66|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K underflow_reg ( .D(unf_comb), .CLK(clk), .RN(n14), .Q(underflow) );
+                     |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,67|21): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K overflow_reg ( .D(ovf_comb), .CLK(clk), .RN(n14), .Q(overflow) );
+                    |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,68|20): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \adder_out_reg[7]  ( .D(sum_comb[7]), .CLK(clk), .RN(n14), .Q(
+                          |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,69|26): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \adder_out_reg[6]  ( .D(sum_comb[6]), .CLK(clk), .RN(n14), .Q(
+                          |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,71|26): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \adder_out_reg[5]  ( .D(sum_comb[5]), .CLK(clk), .RN(n14), .Q(
+                          |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,73|26): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \adder_out_reg[4]  ( .D(sum_comb[4]), .CLK(clk), .RN(n14), .Q(
+                          |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,75|26): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \adder_out_reg[3]  ( .D(sum_comb[3]), .CLK(clk), .RN(n14), .Q(
+                          |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,77|26): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \adder_out_reg[2]  ( .D(sum_comb[2]), .CLK(clk), .RN(n15), .Q(
+                          |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,79|26): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \adder_out_reg[1]  ( .D(sum_comb[1]), .CLK(clk), .RN(n15), .Q(
+                          |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,81|26): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \adder_out_reg[0]  ( .D(sum_comb[0]), .CLK(clk), .RN(n15), .Q(
+                          |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,83|26): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  signed_adder8_core_DW01_add_0 add_165 ( .A({a_reg[7:1], n11}), .B({
+                                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,85|38): 1 output port was not connected:
+xmelab: (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,8): CO
+
+  ADDF_F U1_7 ( .A(A[7]), .B(B[7]), .CIN(carry[7]), .SUM(SUM[7]) );
+            |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,17|12): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/ADDF_F.v,3): COUT
+
+  DFFR_E MISO_reg ( .D(N89), .CLK(n361), .RN(n328), .Q(MISO) );
+                |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,220|16): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_E.v,3): QBAR
+
+  DFFR_K \reg_result_reg[1]  ( .D(n75), .CLK(SCLK), .RN(n325), .QBAR(n145) );
+                           |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project2/synthesis/netlists/signed_adder8.v,227|27): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.DFFR_H:v <0x070b9696>
+			streams:   0, words:     0
+		worklib.DFFR_E:v <0x49588b38>
+			streams:   0, words:     0
+		worklib.signed_adder8_core:v <0x58977966>
+			streams:   0, words:     0
+		worklib.DFF_K:v <0x5669cbb0>
+			streams:   0, words:     0
+		worklib.DFFR_K:v <0x666d891e>
+			streams:   0, words:     0
+		worklib.DFFS_E:v <0x769bf58e>
+			streams:   0, words:     0
+		worklib.signed_adder8:v <0x53060077>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                  392      51
+		UDPs:                      77       1
+		Primitives:              1194       5
+		Timing outputs:           472      16
+		Registers:                104      33
+		Scalar wires:             556       -
+		Always blocks:              1       1
+		Initial blocks:             2       2
+		Pseudo assignments:         1       1
+		Timing checks:            823     157
+		Delayed tcheck signals:   223      77
+		Simulation timescale:     1ps
+	Writing initial simulation snapshot: worklib.signed_adder8_tb:v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /apps/vlsi_2018/cadence/XCELIUM1710/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm signed_adder8_tb.SCLK signed_adder8_tb.CSN signed_adder8_tb.MISO signed_adder8_tb.MISO_enable signed_adder8_tb.MOSI signed_adder8_tb.debug_miso_byte signed_adder8_tb.error_count signed_adder8_tb.rst_n
+Created probe 1
+xcelium> run
+
+Warning!  Timing violation
+           $setuphold<setup>( posedge CLK &&& (RN == 1'b1):349 PS, negedge D:311 PS,  0.417 : 417 PS,  -0.023 : -23 PS );
+            File: /apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_E.v, line = 48
+           Scope: signed_adder8_tb.uut.MISO_reg
+            Time: 349 PS
+
+  PASS  :            adder_out: Expected = 1e, Actual = 1e, Time =               740000
+  PASS  :             overflow: Expected = 00, Actual = 00, Time =               740000
+  PASS  :            underflow: Expected = 00, Actual = 00, Time =               740000
+--------------------------------------------------
+  PASS  :            adder_out: Expected = 0a, Actual = 0a, Time =              1440000
+  PASS  :             overflow: Expected = 00, Actual = 00, Time =              1440000
+  PASS  :            underflow: Expected = 00, Actual = 00, Time =              1440000
+--------------------------------------------------
+  PASS  :            adder_out: Expected = 96, Actual = 96, Time =              2140000
+  PASS  :             overflow: Expected = 01, Actual = 01, Time =              2140000
+  PASS  :            underflow: Expected = 00, Actual = 00, Time =              2140000
+--------------------------------------------------
+  PASS  :            adder_out: Expected = 6a, Actual = 6a, Time =              2840000
+  PASS  :             overflow: Expected = 00, Actual = 00, Time =              2840000
+  PASS  :            underflow: Expected = 01, Actual = 01, Time =              2840000
+--------------------------------------------------
+
+
+----------SIMULATION PASSED----------
+----------RTL SIMULATION   ----------
+
+
+Simulation complete via $finish(1) at time 2840 NS + 0
+../testbench/signed_adder8_tb.v:195       $finish;
+xcelium> 
